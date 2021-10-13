@@ -4,7 +4,7 @@ public class FizzBuzz {
 
 	public Object getNumbers() {
 		// TODO Auto-generated method stub
-		return null;
+		return new int[100];
 	}
 
 }
