@@ -2,8 +2,8 @@ package ee.tthk.tarpv19.jv;
 
 public class FizzBuzz {
 	public static void main(String[] args) {
-		for (int i = 0; i < 100; i++){
-			System.out.println(of(i));
+		for (int i = 0; i <= 100; i++){
+			System.out.println(getNumbers(i));
 		}
 	}
 
@@ -12,7 +12,7 @@ public class FizzBuzz {
 		// TODO Auto-generated method stub
 		return new int[100];
 	}
-	public static String of(int i) {
+	public static String getNumbers(int i) {
 		if(i == 0) return "0";
 		if(i % 3 == 0 && i % 5 == 0) return "FizzBuzz";
 		if(i % 3 == 0) return "Fizz";
