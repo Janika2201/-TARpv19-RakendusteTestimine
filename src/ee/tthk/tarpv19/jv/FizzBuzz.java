@@ -7,11 +7,6 @@ public class FizzBuzz {
 		}
 	}
 
-
-	public Object getNumbers() {
-		// TODO Auto-generated method stub
-		return new int[100];
-	}
 	public static String getNumbers(int i) {
 		if(i == 0) return "0";
 		if(i % 3 == 0 && i % 5 == 0) return "FizzBuzz";
